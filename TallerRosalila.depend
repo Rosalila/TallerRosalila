@@ -1,0 +1,372 @@
+# depslib dependency file v1.0
+1461433022 source:/run/media/kenystev/Datos/keny++/TallerRosalila/main.cpp
+	<GL/freeglut.h>
+	<GL/gl.h>
+	<stdio.h>
+	"RosalilaEngine/system.h"
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	<string>
+	<iostream>
+	"SDL2/SDL.h"
+	"RosalilaEngine/RosalilaUtility/RosalilaUtility.h"
+	"RosalilaEngine/RosalilaInputs/RosalilaInputs.h"
+	"RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h"
+	"RosalilaEngine/RosalilaSound/RosalilaSound.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2_ttf/SDL_ttf.h>
+	<SDL2_mixer/SDL_mixer.h>
+	"TallerGame.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/system.h
+	<iostream>
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.h
+	<iostream>
+	<fstream>
+	<cmath>
+	<vector>
+	"Hitbox.h"
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Hitbox.h
+	"Line.h"
+	"../TinyXml/tinyxml.h"
+	"../RosalilaGraphics/RosalilaGraphics.h"
+	"../RosalilaSound/RosalilaSound.h"
+	"../RosalilaInputs/RosalilaInputs.h"
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Line.h
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h
+	<iostream>
+	<list>
+	"../system.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2_ttf/SDL_ttf.h>
+	"../TinyXml/tinyxml.h"
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	"../RosalilaGraphics/FlatShadow.h"
+	"../RosalilaGraphics/Image.h"
+	"../RosalilaGraphics/Timer.h"
+	"../RosalilaGraphics/Explosion.h"
+	"../RosalilaGraphics/Cube.h"
+	"../RosalilaGraphics/Object3D.h"
+	"../RosalilaUtility/RosalilaUtility.h"
+	<iostream>
+	<fstream>
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/FlatShadow.h
+	<vector>
+	"../RosalilaUtility/RosalilaUtility.h"
+	"../RosalilaGraphics/Image.h"
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Image.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Timer.h
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Explosion.h
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<GL/gl.h>
+	<stdio.h>
+	<math.h>
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Cube.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	<math.h>
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Object3D.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	<math.h>
+	<vector>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaSound/RosalilaSound.h
+	"../system.h"
+	<string>
+	<vector>
+	<iostream>
+	"SDL2/SDL.h"
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2_mixer/SDL_mixer.h>
+	"../RosalilaUtility/RosalilaUtility.h"
+	<map>
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaInputs/RosalilaInputs.h
+	"../system.h"
+	"../RosalilaInputs/Boton.h"
+	"../RosalilaAI/RosalilaAI.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaInputs/Boton.h
+	"../RosalilaInputs/Receiver.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaInputs/Receiver.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	"../TinyXml/tinyxml.h"
+	"SDL2/SDL.h"
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/RosalilaAI.h
+	"Automata.h"
+	<cstdlib>
+	<iostream>
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Automata.h
+	"Estado.h"
+	"../TinyXml/tinyxml.h"
+	"../RosalilaUtility/RosalilaUtility.h"
+	<vector>
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Estado.h
+	"Transicion.h"
+	<cstdlib>
+	<iostream>
+	<vector>
+	"Estado.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Transicion.h
+	<map>
+	<vector>
+	<iostream>
+
+1461433017 /run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.h
+	"RosalilaEngine/RosalilaScreens/Game.h"
+	"PlayScreen.h"
+
+1435803196 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaScreens/Game.h
+	"Screen.h"
+	"Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+	"Rosalila/RosalilaInputs/Receiver.h"
+
+1435800576 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaScreens/Screen.h
+	"Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+
+1461699606 /run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.h
+	"RosalilaEngine/RosalilaScreens/Screen.h"
+	"RosalilaEngine/RosalilaScreens/Game.h"
+	"Skeletor.h"
+
+1461701205 source:/run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.cpp
+	"PlayScreen.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Automata.cpp
+	"Automata.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Estado.cpp
+	"Estado.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/RosalilaAI.cpp
+	"RosalilaAI.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Transicion.cpp
+	"Transicion.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Animation.cpp
+	"Animation.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Animation.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	"../TinyXml/tinyxml.h"
+	"RosalilaGraphics.h"
+	"../RosalilaSound/RosalilaSound.h"
+	"../RosalilaInputs/RosalilaInputs.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Cube.cpp
+	"Cube.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Explosion.cpp
+	"Explosion.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/FlatShadow.cpp
+	"FlatShadow.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Image.cpp
+	"RosalilaGraphics.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Object3D.cpp
+	"Object3D.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/RosalilaGraphics.cpp
+	"RosalilaGraphics.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaGraphics/Timer.cpp
+	"SDL2/SDL.h"
+	"Timer.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaInputs/Boton.cpp
+	"Boton.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaInputs/Receiver.cpp
+	"RosalilaInputs.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaInputs/RosalilaInputs.cpp
+	"RosalilaInputs.h"
+	<sstream>
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/Elemento.cpp
+	"Elemento.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/Elemento.h
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBarra.cpp
+	"MenuBarra.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBarra.h
+	"Elemento.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBoton.cpp
+	"MenuBoton.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBoton.h
+	"Elemento.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuCharSelect.cpp
+	"MenuCharSelect.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuCharSelect.h
+	<vector>
+	"Elemento.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuContenedor.cpp
+	"MenuContenedor.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuContenedor.h
+	"Elemento.h"
+	"MenuLista.h"
+	"MenuBarra.h"
+	"MenuBoton.h"
+	"MenuImagen.h"
+	"MenuTexto.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuLista.h
+	<vector>
+	"Elemento.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuImagen.h
+	"Elemento.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuTexto.h
+	"Elemento.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuGallery.cpp
+	"MenuGallery.h"
+
+1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuGallery.h
+	<vector>
+	"Elemento.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuImagen.cpp
+	"MenuImagen.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuLista.cpp
+	"MenuLista.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuTexto.cpp
+	"MenuTexto.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaNetwork/RosalilaNetwork.cpp
+
+1435803173 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaScreens/Game.cpp
+	"Game.h"
+	"Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaSound/RosalilaSound.cpp
+	"RosalilaSound.h"
+
+1435801607 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Font.cpp
+	"Font.h"
+
+1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Font.h
+	<iostream>
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Hitbox.cpp
+	"Hitbox.h"
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Line.cpp
+
+1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.cpp
+	"RosalilaUtility.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinystr.cpp
+	"tinystr.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1461433017 source:/run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.cpp
+	"TallerGame.h"
+
+1461701584 /run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.h
+	"SDL2/SDL.h"
+	"RosalilaEngine/RosalilaUtility/RosalilaUtility.h"
+	"RosalilaEngine/RosalilaInputs/RosalilaInputs.h"
+	"RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h"
+	"RosalilaEngine/RosalilaSound/RosalilaSound.h"
+	<vector>
+	<map>
+
+1461702281 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.cpp
+	"Skeletor.h"
+

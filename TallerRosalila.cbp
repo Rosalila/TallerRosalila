@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TallerRosalila" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TallerRosalila" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TallerRosalila" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="PlayScreen.cpp" />
+		<Unit filename="PlayScreen.h" />
+		<Unit filename="RosalilaEngine/RosalilaAI/Automata.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaAI/Automata.h" />
+		<Unit filename="RosalilaEngine/RosalilaAI/Estado.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaAI/Estado.h" />
+		<Unit filename="RosalilaEngine/RosalilaAI/RosalilaAI.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaAI/RosalilaAI.h" />
+		<Unit filename="RosalilaEngine/RosalilaAI/Transicion.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaAI/Transicion.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Animation.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Animation.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Cube.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Cube.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Explosion.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Explosion.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/FlatShadow.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/FlatShadow.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Image.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Image.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Object3D.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Object3D.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/RosalilaGraphics.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Timer.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaGraphics/Timer.h" />
+		<Unit filename="RosalilaEngine/RosalilaInputs/Boton.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaInputs/Boton.h" />
+		<Unit filename="RosalilaEngine/RosalilaInputs/Receiver.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaInputs/Receiver.h" />
+		<Unit filename="RosalilaEngine/RosalilaInputs/RosalilaInputs.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaInputs/RosalilaInputs.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/Elemento.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/Elemento.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuBarra.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuBarra.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuBoton.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuBoton.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuCharSelect.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuCharSelect.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuContenedor.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuContenedor.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuGallery.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuGallery.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuImagen.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuImagen.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuLista.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuLista.h" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuTexto.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaMenus/MenuTexto.h" />
+		<Unit filename="RosalilaEngine/RosalilaNetwork/RosalilaNetwork.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaNetwork/RosalilaNetwork.h" />
+		<Unit filename="RosalilaEngine/RosalilaScreens/Game.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaScreens/Game.h" />
+		<Unit filename="RosalilaEngine/RosalilaScreens/Screen.h" />
+		<Unit filename="RosalilaEngine/RosalilaSound/RosalilaSound.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaSound/RosalilaSound.h" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/Font.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/Font.h" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/Hitbox.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/Hitbox.h" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/Line.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/Line.h" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/RosalilaUtility.cpp" />
+		<Unit filename="RosalilaEngine/RosalilaUtility/RosalilaUtility.h" />
+		<Unit filename="RosalilaEngine/TinyXml/tinystr.cpp" />
+		<Unit filename="RosalilaEngine/TinyXml/tinystr.h" />
+		<Unit filename="RosalilaEngine/TinyXml/tinyxml.cpp" />
+		<Unit filename="RosalilaEngine/TinyXml/tinyxml.h" />
+		<Unit filename="RosalilaEngine/TinyXml/tinyxmlerror.cpp" />
+		<Unit filename="RosalilaEngine/TinyXml/tinyxmlparser.cpp" />
+		<Unit filename="RosalilaEngine/system.h" />
+		<Unit filename="Skeletor.cpp" />
+		<Unit filename="Skeletor.h" />
+		<Unit filename="TallerGame.cpp" />
+		<Unit filename="TallerGame.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
