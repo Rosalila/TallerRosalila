@@ -14,8 +14,8 @@
 #ifndef GAME_H
 #define GAME_H
 #include "Screen.h"
-#include "Rosalila/RosalilaGraphics/RosalilaGraphics.h"
-#include "Rosalila/RosalilaInputs/Receiver.h"
+#include "../RosalilaGraphics/RosalilaGraphics.h"
+#include "../RosalilaInputs/Receiver.h"
 
 class Game
 {

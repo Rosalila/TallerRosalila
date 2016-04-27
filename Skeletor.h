@@ -10,6 +10,10 @@
 #include <vector>
 #include <map>
 
+enum State{
+        IDLE,WALK,ATTACK
+};
+
 class Skeletor
 {
     public:
@@ -17,8 +21,10 @@ class Skeletor
         double x, y, scale;
         Image *skull;
         SDL_Rect hurt_box;
-        string state;
-        map< string, vector<Image*>* > state_animations;
+        State state;
+        bool face;
+        map< State, vector<Image*>* > state_animations;
+        int delta,index;
 
         Skeletor(RosalilaGraphics *p,string);
         virtual ~Skeletor();

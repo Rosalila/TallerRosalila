@@ -12,7 +12,7 @@
 */
 
 #include "Game.h"
-#include "Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+#include "../RosalilaGraphics/RosalilaGraphics.h"
 
 Game::Game()
 {

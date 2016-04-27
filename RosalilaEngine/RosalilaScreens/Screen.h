@@ -13,12 +13,12 @@
 
 #ifndef SCREEN_H
 #define SCREEN_H
-#include "Rosalila/RosalilaGraphics/RosalilaGraphics.h"
+#include "../RosalilaGraphics/RosalilaGraphics.h"
 
 class Screen
 {
     public:
-        Screen();
+        Screen(){}
 
         virtual void show ()=0;
         virtual void render (RosalilaGraphics*)=0;
@@ -28,7 +28,7 @@ class Screen
         virtual void hide ()=0;
         virtual void dispose ()=0;
 
-        virtual ~Screen();
+        virtual ~Screen(){}
     protected:
     private:
 };

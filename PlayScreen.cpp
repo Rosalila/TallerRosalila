@@ -17,6 +17,7 @@ void PlayScreen::show ()
 
 void PlayScreen::render (RosalilaGraphics*p)
 {
+    Kenshi->update(game->receiver);
     Kenshi->draw();
 }
 
