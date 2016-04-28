@@ -370,3 +370,373 @@
 1461720591 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.cpp
 	"Skeletor.h"
 
+1461875372 source:/home/turupawn/Projects/TallerRosalila/PlayScreen.cpp
+	"PlayScreen.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/PlayScreen.h
+	"RosalilaEngine/RosalilaScreens/Screen.h"
+	"RosalilaEngine/RosalilaScreens/Game.h"
+	"Skeletor.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaScreens/Screen.h
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h
+	<iostream>
+	<list>
+	"../system.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2_ttf/SDL_ttf.h>
+	"../TinyXml/tinyxml.h"
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	"../RosalilaGraphics/FlatShadow.h"
+	"../RosalilaGraphics/Image.h"
+	"../RosalilaGraphics/Timer.h"
+	"../RosalilaGraphics/Explosion.h"
+	"../RosalilaGraphics/Cube.h"
+	"../RosalilaGraphics/Object3D.h"
+	"../RosalilaUtility/RosalilaUtility.h"
+	<iostream>
+	<fstream>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/system.h
+	<iostream>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/TinyXml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	<sstream>
+	"tinystr.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/TinyXml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/FlatShadow.h
+	<vector>
+	"../RosalilaUtility/RosalilaUtility.h"
+	"../RosalilaGraphics/Image.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.h
+	<iostream>
+	<fstream>
+	<cmath>
+	<vector>
+	"Hitbox.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/Hitbox.h
+	"Line.h"
+	"../TinyXml/tinyxml.h"
+	"../RosalilaGraphics/RosalilaGraphics.h"
+	"../RosalilaSound/RosalilaSound.h"
+	"../RosalilaInputs/RosalilaInputs.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/Line.h
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaSound/RosalilaSound.h
+	"../system.h"
+	<string>
+	<vector>
+	<iostream>
+	"SDL2/SDL.h"
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2_mixer/SDL_mixer.h>
+	"../RosalilaUtility/RosalilaUtility.h"
+	<map>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaInputs/RosalilaInputs.h
+	"../system.h"
+	"../RosalilaInputs/Boton.h"
+	"../RosalilaAI/RosalilaAI.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaInputs/Boton.h
+	"../RosalilaInputs/Receiver.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaInputs/Receiver.h
+	<iostream>
+	<fstream>
+	<vector>
+	<stdarg.h>
+	"../TinyXml/tinyxml.h"
+	"SDL2/SDL.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/RosalilaAI.h
+	"Automata.h"
+	<cstdlib>
+	<iostream>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/Automata.h
+	"Estado.h"
+	"../TinyXml/tinyxml.h"
+	"../RosalilaUtility/RosalilaUtility.h"
+	<vector>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/Estado.h
+	"Transicion.h"
+	<cstdlib>
+	<iostream>
+	<vector>
+	"Estado.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/Transicion.h
+	<map>
+	<vector>
+	<iostream>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Image.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Timer.h
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Explosion.h
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<GL/gl.h>
+	<stdio.h>
+	<math.h>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Cube.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	<math.h>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Object3D.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	<math.h>
+	<vector>
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaScreens/Game.h
+	"Screen.h"
+	"../RosalilaGraphics/RosalilaGraphics.h"
+	"../RosalilaInputs/Receiver.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/Skeletor.h
+	"SDL2/SDL.h"
+	"RosalilaEngine/RosalilaUtility/RosalilaUtility.h"
+	"RosalilaEngine/RosalilaInputs/RosalilaInputs.h"
+	"RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h"
+	"RosalilaEngine/RosalilaSound/RosalilaSound.h"
+	<vector>
+	<map>
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/Automata.cpp
+	"Automata.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/Estado.cpp
+	"Estado.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/RosalilaAI.cpp
+	"RosalilaAI.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaAI/Transicion.cpp
+	"Transicion.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Animation.cpp
+	"Animation.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Animation.h
+	<SDL2/SDL_image.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2/SDL_opengl.h>
+	<stdio.h>
+	"../TinyXml/tinyxml.h"
+	"RosalilaGraphics.h"
+	"../RosalilaSound/RosalilaSound.h"
+	"../RosalilaInputs/RosalilaInputs.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Cube.cpp
+	"Cube.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Explosion.cpp
+	"Explosion.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/FlatShadow.cpp
+	"FlatShadow.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Image.cpp
+	"RosalilaGraphics.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Object3D.cpp
+	"Object3D.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/RosalilaGraphics.cpp
+	"RosalilaGraphics.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaGraphics/Timer.cpp
+	"SDL2/SDL.h"
+	"Timer.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaInputs/Boton.cpp
+	"Boton.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaInputs/Receiver.cpp
+	"RosalilaInputs.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaInputs/RosalilaInputs.cpp
+	"RosalilaInputs.h"
+	<sstream>
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/Elemento.cpp
+	"Elemento.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/Elemento.h
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBarra.cpp
+	"MenuBarra.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBarra.h
+	"Elemento.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBoton.cpp
+	"MenuBoton.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuBoton.h
+	"Elemento.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuCharSelect.cpp
+	"MenuCharSelect.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuCharSelect.h
+	<vector>
+	"Elemento.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuContenedor.cpp
+	"MenuContenedor.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuContenedor.h
+	"Elemento.h"
+	"MenuLista.h"
+	"MenuBarra.h"
+	"MenuBoton.h"
+	"MenuImagen.h"
+	"MenuTexto.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuLista.h
+	<vector>
+	"Elemento.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuImagen.h
+	"Elemento.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuTexto.h
+	"Elemento.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuGallery.cpp
+	"MenuGallery.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuGallery.h
+	<vector>
+	"Elemento.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuImagen.cpp
+	"MenuImagen.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuLista.cpp
+	"MenuLista.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaMenus/MenuTexto.cpp
+	"MenuTexto.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaNetwork/RosalilaNetwork.cpp
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaScreens/Game.cpp
+	"Game.h"
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaSound/RosalilaSound.cpp
+	"RosalilaSound.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/Font.cpp
+	"Font.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/Font.h
+	<iostream>
+	"../RosalilaGraphics/RosalilaGraphics.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/Hitbox.cpp
+	"Hitbox.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/Line.cpp
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.cpp
+	"RosalilaUtility.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/TinyXml/tinystr.cpp
+	"tinystr.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/TinyXml/tinyxml.cpp
+	<ctype.h>
+	<sstream>
+	<iostream>
+	"tinyxml.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/TinyXml/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/RosalilaEngine/TinyXml/tinyxmlparser.cpp
+	<ctype.h>
+	<stddef.h>
+	"tinyxml.h"
+	<windows.h>
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/Skeletor.cpp
+	"Skeletor.h"
+
+1461875372 source:/home/turupawn/Projects/TallerRosalila/TallerGame.cpp
+	"TallerGame.h"
+
+1461875372 /home/turupawn/Projects/TallerRosalila/TallerGame.h
+	"RosalilaEngine/RosalilaScreens/Game.h"
+	"PlayScreen.h"
+
+1461875461 source:/home/turupawn/Projects/TallerRosalila/main.cpp
+	<GL/gl.h>
+	<stdio.h>
+	"RosalilaEngine/system.h"
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<sstream>
+	<string>
+	<iostream>
+	"SDL2/SDL.h"
+	"RosalilaEngine/RosalilaUtility/RosalilaUtility.h"
+	"RosalilaEngine/RosalilaInputs/RosalilaInputs.h"
+	"RosalilaEngine/RosalilaGraphics/RosalilaGraphics.h"
+	"RosalilaEngine/RosalilaSound/RosalilaSound.h"
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2_image/SDL_image.h>
+	<SDL2_ttf/SDL_ttf.h>
+	<SDL2_mixer/SDL_mixer.h>
+	"TallerGame.h"
+
