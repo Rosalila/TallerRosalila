@@ -1,4 +1,3 @@
-#include <GL/freeglut.h>
 #include <GL/gl.h>
 #include <stdio.h>
 
@@ -43,8 +42,6 @@ using namespace std;
 int main(int argc, char *argv[])
 {
     clearLog();
-    glutInit (&argc, argv);
-    glutInitDisplayMode (GLUT_DOUBLE | GLUT_DEPTH | GLUT_RGB);
 
     TallerGame *taller_game = new TallerGame();
     taller_game->create();
