@@ -11,7 +11,7 @@
 #include <map>
 
 enum State{
-        IDLE,WALK,ATTACK
+        IDLE,WALK,JUMP,ATTACK
 };
 
 class Skeletor
@@ -20,11 +20,12 @@ class Skeletor
         RosalilaGraphics * painter;
         double x, y, scale;
         Image *skull;
-        SDL_Rect hurt_box;
+        SDL_Rect hit_box, hurt_box,feet_box;
         State state;
         bool face;
         map< State, vector<Image*>* > state_animations;
-        int delta,index;
+        int health, delta, index;
+        int getDeltha_X();
 
         Skeletor(RosalilaGraphics *p,string);
         virtual ~Skeletor();

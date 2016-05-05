@@ -14,12 +14,20 @@ class PlayScreen : public Screen
 
         Skeletor *Kenshi;
 
+        Image*platform;
+        vector<SDL_Rect*> platforms;
+        bool applayGravity;
+        float gravity;
+
         void show ();
         void render (RosalilaGraphics*);
         void pause ();
         void resume ();
         void hide ();
         void dispose ();
+
+        void drawPlatform(RosalilaGraphics*p);
+        void applyGravity(RosalilaGraphics*p);
     protected:
     private:
 };

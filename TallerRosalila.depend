@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1461433022 source:/run/media/kenystev/Datos/keny++/TallerRosalila/main.cpp
+1461813717 source:/run/media/kenystev/Datos/keny++/TallerRosalila/main.cpp
 	<GL/freeglut.h>
 	<GL/gl.h>
 	<stdio.h>
@@ -29,7 +29,7 @@
 1435867983 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/system.h
 	<iostream>
 
-1461427125 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.h
+1461786539 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.h
 	<iostream>
 	<fstream>
 	<cmath>
@@ -186,12 +186,12 @@
 1461719299 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaScreens/Screen.h
 	"../RosalilaGraphics/RosalilaGraphics.h"
 
-1461699606 /run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.h
+1461794961 /run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.h
 	"RosalilaEngine/RosalilaScreens/Screen.h"
 	"RosalilaEngine/RosalilaScreens/Game.h"
 	"Skeletor.h"
 
-1461719364 source:/run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.cpp
+1462396740 source:/run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.cpp
 	"PlayScreen.h"
 
 1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Automata.cpp
@@ -334,7 +334,7 @@
 
 1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/Line.cpp
 
-1461427125 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.cpp
+1461786539 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaUtility/RosalilaUtility.cpp
 	"RosalilaUtility.h"
 
 1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/TinyXml/tinystr.cpp
@@ -358,7 +358,7 @@
 1461433017 source:/run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.cpp
 	"TallerGame.h"
 
-1461719631 /run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.h
+1462397907 /run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.h
 	"SDL2/SDL.h"
 	"RosalilaEngine/RosalilaUtility/RosalilaUtility.h"
 	"RosalilaEngine/RosalilaInputs/RosalilaInputs.h"
@@ -367,6 +367,6 @@
 	<vector>
 	<map>
 
-1461720591 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.cpp
+1462412220 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.cpp
 	"Skeletor.h"
 
