@@ -32,6 +32,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Enemy.cpp" />
+		<Unit filename="Enemy.h" />
+		<Unit filename="GameOvercSreen.cpp" />
+		<Unit filename="GameOvercSreen.h" />
 		<Unit filename="PlayScreen.cpp" />
 		<Unit filename="PlayScreen.h" />
 		<Unit filename="RosalilaEngine/RosalilaAI/Automata.cpp" />

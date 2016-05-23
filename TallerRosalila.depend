@@ -173,9 +173,10 @@
 	<vector>
 	<iostream>
 
-1461433017 /run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.h
+1464034303 /run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.h
 	"RosalilaEngine/RosalilaScreens/Game.h"
 	"PlayScreen.h"
+	"GameOvercSreen.h"
 
 1461719233 /run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaScreens/Game.h
 	"Screen.h"
@@ -190,7 +191,7 @@
 	"RosalilaEngine/RosalilaScreens/Game.h"
 	"Skeletor.h"
 
-1462397907 /run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.h
+1464032730 /run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.h
 	"SDL2/SDL.h"
 	"RosalilaEngine/RosalilaUtility/RosalilaUtility.h"
 	"RosalilaEngine/RosalilaInputs/RosalilaInputs.h"
@@ -199,8 +200,9 @@
 	<vector>
 	<map>
 
-1462396740 source:/run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.cpp
+1464035108 source:/run/media/kenystev/Datos/keny++/TallerRosalila/PlayScreen.cpp
 	"PlayScreen.h"
+	"TallerGame.h"
 
 1435867983 source:/run/media/kenystev/Datos/keny++/TallerRosalila/RosalilaEngine/RosalilaAI/Automata.cpp
 	"Automata.h"
@@ -363,9 +365,21 @@
 	"tinyxml.h"
 	<windows.h>
 
-1462414117 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.cpp
+1464034514 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Skeletor.cpp
 	"Skeletor.h"
 
-1461433017 source:/run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.cpp
+1464034824 source:/run/media/kenystev/Datos/keny++/TallerRosalila/TallerGame.cpp
 	"TallerGame.h"
+
+1462416346 source:/run/media/kenystev/Datos/keny++/TallerRosalila/Enemy.cpp
+	"Enemy.h"
+
+1462416346 /run/media/kenystev/Datos/keny++/TallerRosalila/Enemy.h
+
+1464034149 source:/run/media/kenystev/Datos/keny++/TallerRosalila/GameOvercSreen.cpp
+	"GameOvercSreen.h"
+
+1464035376 /run/media/kenystev/Datos/keny++/TallerRosalila/GameOvercSreen.h
+	"RosalilaEngine/RosalilaScreens/Game.h"
+	"RosalilaEngine/RosalilaScreens/Screen.h"
 

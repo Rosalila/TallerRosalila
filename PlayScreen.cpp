@@ -1,4 +1,5 @@
 #include "PlayScreen.h"
+#include "TallerGame.h"
 
 PlayScreen::PlayScreen(Game* game)
 {
@@ -57,6 +58,16 @@ void PlayScreen::applyGravity(RosalilaGraphics*p)
         Kenshi->y+=gravity;
     }else{
 //        Kenshi->y=yTemp;
+    }
+
+    if(Kenshi->feet_box.y > p->screen_height)
+    {
+        game->setScreen(((TallerGame*)game)->G_OVER);
+    }
+
+    if(game->receiver->isKeyPressed(SDLK_a))
+    {
+        game->setScreen(((TallerGame*)game)->G_OVER);
     }
 }
 

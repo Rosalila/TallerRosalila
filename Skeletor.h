@@ -20,7 +20,8 @@ class Skeletor
         RosalilaGraphics * painter;
         double x, y, scale;
         Image *skull;
-        SDL_Rect hit_box, hurt_box,feet_box;
+        SDL_Rect hit_box
+        , hurt_box,feet_box;
         State state;
         bool face;
         map< State, vector<Image*>* > state_animations;
