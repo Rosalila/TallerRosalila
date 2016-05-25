@@ -4,6 +4,7 @@
 #include "RosalilaEngine/RosalilaScreens/Screen.h"
 #include "RosalilaEngine/RosalilaScreens/Game.h"
 #include "Skeletor.h"
+#include "Enemy.h"
 
 class PlayScreen : public Screen
 {
@@ -13,6 +14,7 @@ class PlayScreen : public Screen
         virtual ~PlayScreen();
 
         Skeletor *Kenshi;
+        Enemy *Malon;
 
         Image*platform;
         vector<SDL_Rect*> platforms;

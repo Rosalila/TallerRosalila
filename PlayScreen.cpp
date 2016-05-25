@@ -74,6 +74,7 @@ void PlayScreen::applyGravity(RosalilaGraphics*p)
 void PlayScreen::show ()
 {
     Kenshi = new Skeletor(game->rosalila_graphics,"HeroSkeleton");
+    Malon = new Enemy(game->rosalila_graphics,"Knight Skeleton");
 
     platform = game->rosalila_graphics->getTexture("assets/platform.png");
     for(int i = 0; i<10; i++)
@@ -108,6 +109,10 @@ void PlayScreen::render (RosalilaGraphics*p)
     drawPlatform(p);
     Kenshi->update(game->receiver);
     Kenshi->draw();
+
+    Malon->update(game->receiver);
+    Malon->draw();
+
     applyGravity(p);
 }
 
